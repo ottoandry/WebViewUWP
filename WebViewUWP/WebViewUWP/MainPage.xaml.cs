@@ -26,7 +26,8 @@ namespace WebViewUWP
         {
             this.InitializeComponent();
 
-            myWebView.Navigate(new Uri("https://play.radiopanetti.it"));
+            myWebView.Navigate(new Uri("https://play.radiopanetti.it/", UriKind.Absolute), 
+null, "User-Agent: AndroidApp");
 
             // If I enter i = 1 / 0 and press "execute" a javascript error will occur. 
             // The link (http://www.webtoolkitonline.com/javascript-tester.html) in Edge will display an alert.
