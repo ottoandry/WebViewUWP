@@ -14,7 +14,7 @@
   <mp:PhoneIdentity PhoneProductId="448b11a2-b193-4376-8ce9-a7a6b8b84dd4" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>RadioPanetti Bari</DisplayName>
+    <DisplayName>WebViewUWP</DisplayName>
     <PublisherDisplayName>rober</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
